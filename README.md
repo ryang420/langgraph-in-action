@@ -1,11 +1,13 @@
-《Langgraph 实战》示例代码
-```
-安装依赖
+# 《LangGraph 实战》示例代码
+
+## 安装依赖
+
+```bash
+# 创建虚拟环境
 python -m venv .venv
+
+# 激活虚拟环境 (Linux / macOS)
 source .venv/bin/activate
-pip install -r requirments.txt
 
-#配置环境变量
-mv .env.example .env
-
-```
+# 安装依赖
+pip install -r requirements.txt
